@@ -1,5 +1,9 @@
 {
   "Тестовый пример": "Test example",
   "Перевод": "Translate",
-  "Язык": "English"
+  "Язык": "English",
+  "Страница не найдена": "Page not found",
+  "Обновить страницу": "Refresh page",
+  "Главная": "Home",
+  "О нас": "About us"
 }

@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const MainPage = () => {
@@ -6,7 +5,7 @@ const MainPage = () => {
 
   return (
     <div>
-      {t('Главная')}
+      {t('Главная страница')}
     </div>
   );
 };
