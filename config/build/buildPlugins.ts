@@ -20,15 +20,15 @@ export function buildPlugins({ paths, isDev }: BuildOptions): webpack.WebpackPlu
     new webpack.HotModuleReplacementPlugin(),
     new BundleAnalyzerPlugin({
       openAnalyzer: false,
-    })
-  ]
+    }),
+  ];
 
   if (isDev) {
     plugins.push(new webpack.HotModuleReplacementPlugin());
     plugins.push(new BundleAnalyzerPlugin({
-      openAnalyzer: false
-    }))
+      openAnalyzer: false,
+    }));
   }
-  
+
   return plugins;
 }

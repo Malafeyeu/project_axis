@@ -24,7 +24,7 @@ export function buildWebpackConfig(options: BuildOptions): webpack.Configuration
     devtool: isDev ? 'inline-source-map' : undefined,
     devServer: isDev ? buildDevServer(options) : undefined,
     performance: {
-      hints: false //для запуска CI
-    }
+      hints: false, // для запуска CI
+    },
   };
 }
